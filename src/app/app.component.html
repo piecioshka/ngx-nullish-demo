@@ -1,0 +1,13 @@
+<h1>Angular Structural Directive: ngx-nullish</h1>
+
+<p *ngIf="numbers$ | async as num">
+  [using *ngIf]: {{ num }}
+</p>
+
+<p *ngxNullish="numbers$ | async as num">
+  [using *ngxNullish]: {{ num }}
+</p>
+
+<button (click)="send(null)">Add: null</button>
+<button (click)="send(0)">Add: 0</button>
+<button (click)="send(1)">Add: 1</button>
