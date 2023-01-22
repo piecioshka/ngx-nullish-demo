@@ -2,6 +2,6 @@
 
 Demo of [ngx-nullish](https://github.com/piecioshka/ngx-nullish) project.
 
-## Demo 🚀
+## Preview 🚀
 
 <https://piecioshka.github.io/ngx-nullish-demo/>
